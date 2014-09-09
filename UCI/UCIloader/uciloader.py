@@ -25,9 +25,9 @@ def uciengine(name, curdir):
 # For testing purposes:
 #
 #uciloader = subprocess.check_call("{0} {1}".format(winepath, uciengine))
-#print("{0} {1}".format(winepath, uciengine(name, curdir)))
+print("{0} {1}".format(winepath, uciengine(name, curdir)))
 
-# This will load the win32 UCI engine with Wine:
+# This should load the win32 UCI engine with Wine:
 
-subprocess.call("{0} {1}".format(winepath, uciengine(name, curdir)))
+#subprocess.call("{0} {1}".format(winepath, uciengine(name, curdir)))
 
